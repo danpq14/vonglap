@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num=prompt('nhập vào 1 số bất kì');
+    let n=parseInt(num);
+    let i=2;
+    let flag = true;
+        for (i=2;i<n; i++) {
+            if (n%i == 0) {
+            flag = false;
+            break;
+            }
+    }
+    if (flag == true) {
+        alert('số bạn nhập là số nguyên tố')
+    } else {
+        alert('số bạn nhập ko phải là số nguyên tố')
+    }
+</script>
+
+</body>
+</html>
